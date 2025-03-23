@@ -1,0 +1,28 @@
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.photo {
+  height: 400px;
+  background-color: #f0f0f0;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  transition-duration: 750ms;
+  transform: translate(-100px);
+  
+}
+
+.item{
+    width: 500px;
+display: flex;
+justify-content: center;
+}
+
+.photo1{
+    box-shadow: rgba(46, 182, 240, 0.4) 5px 5px, rgba(46, 214, 240, 0.3) 10px 10px, rgba(46, 195, 240, 0.2) 15px 15px, rgba(46, 204, 240, 0.1) 20px 20px, rgba(46, 198, 240, 0.05) 25px 25px;
+    transition-duration: 750ms;
+    transform: translate(0);
+}
